@@ -31,9 +31,9 @@ Rechtsgrundlage (im Sinne der DSGVO, falls relevant) ist in der Regel Art. 6 Abs
 ## 3. Speicherung der Daten
 Lokal auf deinem Gerät
 Mahlzeiten, Kalorien, Makros, Obst-/Gemüseeinheiten, Wasser‑ und Gewichtseinträge sowie Zielkalorien und Profilwerte werden lokal auf deinem Gerät gespeichert (z. B. in SharedPreferences / lokalem Speicher).
-Die Daten verlassen dein Gerät nur insoweit, wie dies für die Nährwert‑Analyse notwendig ist (siehe Punkt 5).
+Die Daten verlassen dein Gerät nur insoweit, wie dies für die Nährwert‑Analyse notwendig ist (siehe Punkt 4).
 Keine eigene Cloud‑Synchronisation
-Die App selbst synchronisiert deine Daten nicht automatisch mit einem eigenen Server oder Cloud‑Dienst (sofern du das nicht separat implementiert hast).
+Die App selbst synchronisiert deine Daten nicht automatisch mit einem eigenen Server oder Cloud‑Dienst.
 
 ## 4. Nutzung von OpenAI (Nährwert‑Analyse)
 Zur Analyse von Mahlzeiten wird die OpenAI API genutzt (z. B. Modell gpt-4o-mini):
@@ -47,7 +47,7 @@ Wichtige Punkte:
 Drittlandübermittlung
 Die Verarbeitung durch OpenAI kann außerhalb der EU/EWR (z. B. in den USA) stattfinden.
 Einzelheiten findest du in der Datenschutzerklärung von OpenAI:
-https://openai.com/privacy (ggf. als Link verlinken).
+https://openai.com/privacy.
 Verantwortung / Auftragsverarbeitung
 OpenAI agiert als externer Dienstleister zur Erbringung der Analysefunktion.
 Es werden nur die für die Analyse erforderlichen Inhalte übermittelt (Mahlzeitenbeschreibung als Text, keine anderen personenbezogenen Daten wie Name/Adresse).
